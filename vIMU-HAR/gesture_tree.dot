@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Acceleration_min(3-axis)_x <= 0.653\ngini = 0.432\nsamples = 19\nvalue = [6, 13]\nclass = reverse", fillcolor="#94caf1"] ;
+1 [label="gini = 0.0\nsamples = 13\nvalue = [0, 13]\nclass = reverse", fillcolor="#399de5"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="gini = 0.0\nsamples = 6\nvalue = [6, 0]\nclass = knee", fillcolor="#e58139"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

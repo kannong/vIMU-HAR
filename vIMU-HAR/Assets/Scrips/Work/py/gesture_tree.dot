@@ -1,0 +1,4 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Acceleration_max(3-axis)_y <= -0.536\ngini = 0.611\nsamples = 235\nvalue = [33, 101, 101]\nclass = reverse", fillcolor="#ffffff"] ;
